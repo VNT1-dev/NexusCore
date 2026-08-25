@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Download NexusCore</title>
+</head>
+<body style="background: #121212; color: white; text-align: center; font-family: sans-serif; padding-top: 20vh;">
+    <h2>Preparazione del download in corso...</h2>
+    <p>Verrai reindirizzato a MediaFire tra un secondo.</p>
+
+    <script>
+        // Aumenta di 1 il contatore
+        fetch('https://abacus.jasoncameron.dev/hit/nexuscore.it/downloads')
+            .finally(() => {
+                // Manda l'utente su MediaFire
+                window.location.href = 'https://www.mediafire.com/file/nqow16sackl650p/NexusCore_Setup_1.0.0.zip/file';
+            });
+    </script>
+</body>
+</html>
